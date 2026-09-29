@@ -2,7 +2,7 @@
 
 A curated list of research on the **security, robustness, and safety** of [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), TypeSafe AI's first *System One Model*, and of RLCD (Reinforcement Learning for Calibrated Decisions) models more broadly.
 
-Jev maps unstructured state to **typed probabilistic decisions** (`Bool`, `Score`, `Choice`) with calibrated confidence, instead of generating free-form text. That changes the attack surface. Schema constraints rule out malformed outputs, but attackers can still push the decision distribution or the confidence scores.
+Jev maps unstructured state to **typed probabilistic decisions** (`Choice`, `Score`, `Noul`) with calibrated confidence, instead of generating free-form text. That changes the attack surface. Schema constraints rule out malformed outputs, but attackers can still push the decision distribution or the confidence scores.
 
 > Jev was announced on 2026-09-15. This list tracks the first wave of papers and will be updated as more appear.
 
@@ -56,4 +56,4 @@ Jev maps unstructured state to **typed probabilistic decisions** (`Bool`, `Score
 
 ## Contributing
 
-PRs welcome. To be included, a paper must be **about Jev (or RLCD / System One models) and about security, robustness, or safety**. Add it to the right section in reverse-chronological order, using the same table format and a 1–2 sentence summary.
+PRs welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
